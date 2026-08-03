@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair Display" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Outfit" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Reggae One" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>LANDING PAGE</title>
+</head>
+
+<div>
+    <style>
+        body {
+            margin: 0px;
+            font-family: Playfair Display;
+            cursor: default;
+            background-color: #F1F0EE;
+        }
+
+        .backgrnd {
+            background-image: url(Coffee.png);
+            height: 100vh;
+            width: 100%;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        .cafe {
+            margin-top: 61px;
+            margin-left: 180px;
+            font-weight: 700;
+            font-size: 32px;
+            font-style: bold;
+            color: #FFFFFF;
+        }
+
+        .nav1 {
+            color: #FFFFFF;
+            font-weight: 500;
+            font-size: 18px;
+            margin-top: 72px;
+            margin-left: 180px;
+            word-spacing: 40px;
+        }
+
+        .search {
+            color: #0C0B0B;
+            margin-top: 60px;
+            margin-left: 70px;
+            width: 40px;
+            height: 40px;
+            background-color: #FFFFFF;
+            border-radius: 100px;
+        }
+
+        .wel {
+            margin-top: 100px;
+            margin-left: 180px;
+            color: #FFFFFF;
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        .para {
+            font-weight: 700;
+            font-size: 72px;
+            font-style: bold;
+            color: #FFFFFF;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+
+        .lor {
+            font-size: 18px;
+            font-weight: 400;
+            font-style: Regular;
+            margin-top: 0px;
+
+        }
+
+        .order {
+            border-radius: 100px;
+            width: 170px;
+            height: 55px;
+            color: #30261C;
+            background-color: #FFFFFF;
+            font-size: 18px;
+            font-weight: 500;
+            cursor: pointer;
+        }
+
+        .bg {
+            background-color: #E2D9C8;
+            width: 100%;
+            height: 180px;
+        }
+
+        .img {
+            margin-left: 300px;
+            margin-top: 35px;
+
+        }
+
+        .scroll {
+            background-color: #F1F0EE;
+        }
+
+        .sp {
+            margin-top: 30px;
+            margin-left: 570px;
+            font-size: 32px;
+            font-weight: 600;
+            font-style: SemiBold;
+            color: #30261C;
+
+        }
+
+        .img1 {
+            margin-top: 10px;
+        }
+
+        .cards {
+            display: flex;
+        }
+
+        .card {
+            background-color: #e8e4dc;
+            width: 350px;
+            height: 605px;
+            border-radius: 18px;
+            padding: 18px;
+            margin-left: 10px;
+            margin-right: 0px;
+            border: solid;
+            border-color: #E2D9C8;
+            font-family: Outfit;
+
+        }
+
+        .c {
+            font-weight: 600;
+            font-size: 38px;
+            font-style: SemiBold;
+            margin-bottom: 0px;
+            color: #30261C;
+        }
+
+        .des {
+            margin-top: 0px;
+            color: #2A0000;
+            font-size: 20px;
+            font-weight: 400;
+            font-style: Regular;
+            margin-top: 5px;
+            margin-bottom: 0px;
+        }
+
+        .rs {
+            font-weight: 600;
+            color: #2A0000;
+            font-size: 20px;
+            margin-top: 10px
+        }
+
+        .but {
+            background-color: #2A0000;
+            color: white;
+            width: 127px;
+            height: 41px;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-left: 100px;
+        }
+
+        .card2 {
+            margin-left: 5px;
+        }
+
+        .left {
+            margin-top: 260px;
+            margin-right: 0px;
+        }
+
+        .right {
+            margin-top: 260px;
+            margin-left: 10px;
+        }
+
+        .dessert {
+            font-size: 32px;
+            font-weight: 600;
+            font-style: SemiBold;
+            margin-top: 30px;
+            margin-left: 570px;
+            color: #30261C;
+            font-family: Playfair Display;
+        }
+
+        .below {
+            background-image: url(bg.png);
+            width: 100%;
+            height: 280px;
+            margin-top: 50px;
+            display: flex;
+        }
+
+        .hand {
+            width: 520px;
+            height: 305px;
+        }
+
+        .b {
+            margin-left: 120px;
+            margin-top: 60px;
+            font-size: 40px;
+            font-weight: 600;
+            font-style: SemiBold;
+        }
+
+        .exp {
+            width: 258px;
+            height: 51px;
+            background-color: #30261C;
+            color: #FFFFFF;
+            border-radius: 100px;
+            cursor: pointer;
+            margin: 0px;
+            font-size: 16px;
+        }
+
+        .arrow {
+            margin-bottom: 30px;
+        }
+
+        .beans {
+            margin-left: 100px;
+
+        }
+
+        .arrow {
+            margin: 0px;
+        }
+
+        .join {
+            font-family: Reggae One;
+            font-weight: 400;
+            font-size: 32px;
+            font-style: Regular;
+            margin-left: 620px;
+            margin-top: 50px;
+            color: #30261C;
+            margin-bottom: 0px;
+        }
+
+        .cus {
+            font-size: 32px;
+            font-weight: 600;
+            font-style: SemiBold;
+            margin-top: 15px;
+            margin-left: 570px;
+            color: #30261C;
+
+        }
+
+        .reviews {
+            width: 417px;
+            height: 207px;
+            margin-left: 60px;
+            background-color: #E2D9C866;
+            border-radius: 18px;
+            margin-top: 20px;
+        }
+
+        .profile {
+            display: flex;
+        }
+
+        .face {
+            margin-left: 28px;
+            margin-top: 28px;
+        }
+
+        .name {
+            font-family: poppins;
+            font-size: 18px;
+            font-weight: 600;
+            font-style: SemiBold;
+            margin-top: 30px;
+            margin-left: 10px;
+            color: #30261C;
+        }
+
+        .type {
+            font-size: 14px;
+            font-weight: 600;
+            font-style: SemiBold;
+            color: #30261CB2;
+        }
+
+        .star {
+            margin-top: 25px;
+            margin-left: 40px;
+        }
+
+        .p {
+            font-size: 12px;
+            font-weight: 500;
+            font-style: medium;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-top: 20px;
+            line-height: 20px;
+        }
+
+        .cards2 {
+            display: flex;
+        }
+
+        .reviews2 {
+            width: 450px;
+            height: 250px;
+            margin-left: 50px;
+            background-color: #E2D9C866;
+            border-radius: 18px;
+            border: solid;
+            border-color: #30261C1A;
+
+        }
+
+        .dots {
+            margin-left: 740px;
+            margin-top: 30px;
+        }
+
+        .newsletter {
+            width: 100%;
+            height: 280px;
+            background-color: #E2D9C8;
+            margin-top: 50px;
+            display: flex;
+            margin-bottom: 0px;
+        }
+
+        .beanl {
+            height: 280px;
+        }
+
+        .off {
+            font-size: 32px;
+            font-weight: 600;
+            font-style: SemiBold;
+            font-family: poppins;
+            margin-top: 70px;
+            margin-left: 170px;
+            margin-bottom: 0px;
+        }
+
+        .sub {
+            margin-top: 0px;
+            font-family: poppins;
+            font-size: 16px;
+            font-weight: 500;
+            font-style: Medium;
+            margin-left: 120px;
+            margin-bottom: 0px;
+        }
+
+        .email {
+            width: 364px;
+            height: 44px;
+            background-color: #F1F0EE;
+            margin-left: 100px;
+            border-radius: 100px;
+            margin-top: 15px;
+        }
+
+        input::placeholder {
+            font-family: poppins;
+            font-weight: 600;
+            font-size: 16px;
+            font-style: SemiBold;
+            color: #30261C;
+            opacity: 1;
+        }
+
+        .bu {
+            width: 138px;
+            height: 44px;
+            background-color: #30261C;
+            border-radius: 100px;
+            color: #FFFFFF;
+            cursor: pointer;
+            font-family: poppins;
+            font-size: 16px;
+            font-style: SemiBold;
+            font-weight: 600;
+        }
+
+        .beanR {
+            margin-left: 73px;
+        }
+
+        .bgf {
+            width: 100%;
+            height: 350px;
+            background-color: #30261C;
+            margin-top: 0px;
+            display: flex;
+            color: white;
+        }
+
+        .e {
+            color: white;
+            margin-left: 160px;
+            margin-top: 100px;
+            font-family: poppins;
+            font-size: 32px;
+            font-weight: 700;
+            font-style: Bold;
+        }
+
+        .block1 {
+            margin-top: 110px;
+            margin-left: 30px;
+            font-size: 24px;
+            font-weight: 500;
+            font-family: playfair display;
+        }
+
+        .subblock {
+            margin-left: 30px;
+            font-family: poppins;
+            font-size: 18px;
+            font-style: regular;
+        }
+
+        .block2 {
+            margin-left: 50px;
+            font-family: playfair display;
+            font-weight: 500;
+            font-size: 24px;
+            margin-top: 110px;
+        }
+
+        .subblock2 {
+            margin-left: 50px;
+            font-size: 18px;
+            font-style: regular;
+            font-family: poppins;
+        }
+
+        .block3 {
+            margin-left: 70px;
+            font-family: playfair display;
+            font-weight: 500;
+            font-size: 24px;
+            margin-top: 110px;
+        }
+
+        .subblock3 {
+            margin-left: 70px;
+            font-size: 18px;
+            font-style: regular;
+            font-family: poppins;
+        }
+
+        .block4 {
+            margin-left: 90px;
+            font-family: playfair display;
+            font-weight: 500;
+            font-size: 24px;
+            margin-top: 110px;
+        }
+
+        .subblock4 {
+            margin-left: 90px;
+            font-size: 18px;
+            font-style: regular;
+            font-family: poppins;
+        }
+
+        .social-icons {
+            margin-left: 125px;
+
+        }
+
+        .social-icons a {
+            color: white;
+            font-size: 30px;
+            word-spacing: 40px;
+        }
+    </style>
+
+    <div class="backgrnd">
+
+        <div class="container">
+            <p class="cafe">central perk café</p>
+            <span class="nav1">HOME COFFEE BAKERY SHOP ABOUT LOGIN</span>
+            <button class="search"> <span class="material-symbols-outlined">search</span></button>
+        </div>
+        <div class="wel">
+            <p>WELCOME</p>
+            <p class="para">We serve the <br> richest coffee in <br> the city!</p>
+            <br>
+            <p class="lor">Lorem ipsum dolor sit amet, consectetur adipisicing <br> elit, sed do eiusmod tempor</p>
+            <button class="order">Order Now</button>
+        </div>
+    </div>
+    <div class="bg"> <img src="Categories.png" alt="categories" class="img"></div>
+
+    <div class="main">
+        <p class="sp">OUR SPECIAL COFFEE</p>
+    </div>
+
+    <div class="cards">
+        <img src="Group 11.png" alt="left" width="40" height="40" class="left">
+        <div class="card">
+            <img src="Rectangle 1.png" alt="coffee" width="320" height="364" class="img1">
+            <p class="c">Lungo Coffee</p>
+            <p class="des">Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit,</p>
+            <p class="rs">Rs.200 <button class="but">Order Now</button></p>
+        </div>
+        <div class="card card2">
+            <img src="Rectangle 3.png" alt="coffee" width="320" height="364" class="img1">
+            <p class="c">Lungo Coffee</p>
+            <p class="des">Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit,</p>
+            <p class="rs">Rs.200 <button class="but">Order Now</button></p>
+        </div>
+        <div class="card card2">
+            <img src="Rectangle 2.png" alt="coffee" width="320" height="364" class="img1">
+            <p class="c">Lungo Coffee</p>
+            <p class="des">Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit,</p>
+            <p class="rs">Rs.200 <button class="but">Order Now</button></p>
+        </div>
+        <div class="card card2">
+            <img src="Rectangle 4.png" alt="coffee" width="320" height="364" class="img1">
+            <p class="c">Lungo Coffee</p>
+            <p class="des">Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit,</p>
+            <p class="rs">Rs.200 <button class="but">Order Now</button></p>
+        </div>
+        <img src="Group 12.png" alt="right" height="40" width="40" class="right">
+    </div>
+    <div class="page2">
+        <p class="dessert">OUR SPECIAL DESSERT</p>
+    </div>
+    <div class="cards">
+        <img src="Group 11.png" alt="left" width="40" height="40" class="left">
+        <div class="card">
+            <img src="Rectangle 7 (3).png" alt="coffee" width="320" height="364" class="img1">
+            <p class="c">Lungo Coffee</p>
+            <p class="des">Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit,</p>
+            <p class="rs">Rs.200 <button class="but">Order Now</button></p>
+        </div>
+        <div class="card card2">
+            <img src="Rectangle 7 (4).png" alt="coffee" width="320" height="364" class="img1">
+            <p class="c">Lungo Coffee</p>
+            <p class="des">Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit,</p>
+            <p class="rs">Rs.200 <button class="but">Order Now</button></p>
+        </div>
+        <div class="card card2">
+            <img src="Rectangle 7 (5).png" alt="coffee" width="320" height="364" class="img1">
+            <p class="c">Lungo Coffee</p>
+            <p class="des">Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit,</p>
+            <p class="rs">Rs.200 <button class="but">Order Now</button></p>
+        </div>
+        <div class="card card2">
+            <img src="Rectangle 7 (6).png" alt="coffee" width="320" height="364" class="img1">
+            <p class="c">Lungo Coffee</p>
+            <p class="des">Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit,</p>
+            <p class="rs">Rs.200 <button class="but">Order Now</button></p>
+        </div>
+        <img src="Group 12.png" alt="right" height="40" width="40" class="right">
+    </div>
+    <div class="below">
+        <img src="hand.png" alt="hand with beans" class="hand">
+        <div>
+            <p class="b">Check Out Our Best <br> Coffee Beans <br>
+                <button class="exp">Explore Out Products
+                    <img src="Frame 14.png" alt="arrow" width="20" height="20" class="arrow">
+                </button>
+
+            </p>
+        </div>
+        <img src="beans.png" alt="beans" class="beans">
+    </div>
+    <div class="page 3">
+        <p class="join">Come And Join</p>
+        <p class="cus">OUR HAPPY CUSTOMERS</p>
+    </div>
+
+    <div class="cards2">
+        <div class="reviews">
+            <div class="profile">
+                <img src="Ellipse 2.png" alt="face" class="face">
+                <div class="name">
+                    Rachel Green
+                    <div class="type">Regular Customer
+                    </div>
+                </div>
+                <div><img src="stars.png" alt="stars" class="star"></div>
+            </div>
+            <p class="p">
+                Lorem ipsum dolor sit amet, consectetur adipisicing ,Lorem ipsum dolor sit amet, consectetur adipisicing
+                dolor sit amet, consectetur adipisicing elit,Lorem ipsum amet, consectetur adipisicing elit,Lorem ipsum
+                dolor sit adipisicing elit,Lorem ipsum dolor sit dolor sit amet, consectetur adipisicing elit,
+            </p>
+
+
+        </div>
+
+        <div class="reviews2">
+            <div class="profile">
+                <img src="Ellipse 2.png" alt="face" class="face">
+                <div class="name">
+                    Ross Geller
+                    <div class="type">Coffee Lover
+                    </div>
+                </div>
+                <div><img src="stars2.png" alt="stars" class="star"></div>
+            </div>
+            <p class="p">
+                Lorem ipsum dolor sit amet, consectetur adipisicing ,Lorem ipsum dolor sit amet, consectetur adipisicing
+                dolor sit amet, consectetur adipisicing elit,Lorem ipsum amet, consectetur adipisicing elit,Lorem ipsum
+                dolor sit adipisicing elit,Lorem ipsum dolor sit dolor sit amet, consectetur adipisicing elit,
+            </p>
+
+
+        </div>
+        <div class="reviews">
+            <div class="profile">
+                <img src="Ellipse 2.png" alt="face" class="face">
+                <div class="name">
+                    Phoebe Buffay
+                    <div class="type">Central Perk Regular
+                    </div>
+                </div>
+                <div><img src="stars.png" alt="stars" class="star"></div>
+            </div>
+            <p class="p">
+                Lorem ipsum dolor sit amet, consectetur adipisicing ,Lorem ipsum dolor sit amet, consectetur adipisicing
+                dolor sit amet, consectetur adipisicing elit,Lorem ipsum amet, consectetur adipisicing elit,Lorem ipsum
+                dolor sit adipisicing elit,Lorem ipsum dolor sit dolor sit amet, consectetur adipisicing elit,
+            </p>
+        </div>
+    </div>
+    <div>
+        <img src="dots.png" alt="dots" class="dots">
+    </div>
+
+    <div class="newsletter">
+        <div>
+            <img src="beanL.png" alt="beans" class="beanl">
+        </div>
+        <div>
+            <p class="off">
+                Join in and get 15% off!
+                <br>
+            <p class="sub">
+                Subscribe to our newsletter and get 15% off discount code.
+            </p>
+
+            </p>
+
+            <div class="mail">
+                <input type="text" name="email" id="mail" class="email" placeholder="&nbsp;&nbsp;Email Address">
+                <button class="bu">Subscribe</button>
+            </div>
+
+        </div>
+        <img src="beanR.png" alt="beans" class="beanR">
+    </div>
+    <div class="footer">
+        <div class="bgf">
+            <div>
+                <p class="e">CENTRAL PERK</p>
+            </div>
+            <div>
+                <p class="block1">PRIVACY</p>
+                <p class="subblock">Terms of use</p>
+                <p class="subblock">Privacy policy</p>
+                <p class="subblock">Cookies</p>
+            </div>
+            <div>
+                <p class="block2">SERVICES</p>
+                <p class="subblock2">Shop</p>
+                <p class="subblock2">Order ahead</p>
+                <p class="subblock2">Menu</p>
+            </div>
+            <div>
+                <p class="block3">ABOUT US</p>
+                <p class="subblock3">Find a location</p>
+                <p class="subblock3">About us</p>
+                <p class="subblock3">Our story</p>
+            </div>
+            <div>
+                <p class="block4">INFORMATION</p>
+                <p class="subblock4">Plans & pricing</p>
+                <p class="subblock4">Sell your products</p>
+                <p class="subblock4">Jobs</p>
+            </div>
+            <div>
+                <p class="block4">SOCIAL MEDIA</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
